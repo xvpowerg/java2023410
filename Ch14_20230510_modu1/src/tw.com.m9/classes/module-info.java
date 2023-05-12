@@ -4,4 +4,5 @@
  */
 
 module tw.com.m9 {
+    requires tw.com.m8;
 }

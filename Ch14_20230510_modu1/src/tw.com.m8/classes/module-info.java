@@ -4,6 +4,7 @@
  */
 
 module tw.com.m8 {
-    requires tw.com.m6;
-    requires tw.com.m7;
+    requires transitive tw.com.m6;
+    requires transitive tw.com.m7;
+    exports tw.com.m8;
 }
